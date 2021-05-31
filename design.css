@@ -1,0 +1,64 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #f9c25e;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+  --main-orange: #ffa500;
+}
+.tab { margin-left: 5%; 
+margin-right: 5%;
+text-align: justify ;}
+.textFill{
+	font-size: 26px;
+  font-family: "Georgia";
+
+}
+.display-1{
+	  font-weight: bold;
+	  font-size: 72px;
+	color: #a2b86c;
+}
+.display-3{
+	font-weight: bold;
+	font-size: 32px;
+}
+.footer {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 25%));
+   width: 60%; /* Ширина */
+    float: center; /* Выстраиваем элементы по горизонтали */
+    margin: 0 0 0 25.3%; /* Отступ слева */
+   
+    padding: 2%; /* Поля */
+
+
+}
+
+.footer >p:hover{
+    transform: scale(1.2,1.2);
+    transition: 1s;
+
+
+}
+.contact-section{
+  background-color: #303841;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.container > h1{
+    font-size: 56px;
+    text-align: center;
+    color: var(--main-red);
+    font-weight: 600;
+
+}
+.container >h3 {
+  text-align: center;
+  color: #ccccff  ;
+}
+.navbar{
+	background-color: #f9c25e;
+}
+.twoGiff{
+	padding-left: 8%;
+}
